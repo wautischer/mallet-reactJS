@@ -12,6 +12,8 @@ extend({ OrbitControls });
 const Controls = () => {
     const { camera, gl } = useThree();
     const controls = useRef();
+    const raycaster = new THREE.Raycaster();
+    const objRef = useRef();
 
     const bind = useDrag(
         ({ movement: [dx, dy], event, cancel }) => {
@@ -24,13 +26,26 @@ const Controls = () => {
 
             if (event.touches && event.touches.length === 2) {
                 const [touch1, touch2] = event.touches;
-                const distance = Math.hypot(
-                    touch1.clientX - touch2.clientX,
-                    touch1.clientY - touch2.clientY
-                );
 
-                controls.current.dollyToZoom(true, distance / 2);
-                cancel();
+                // Überprüfe, ob beide Finger das Objekt berühren
+                const touchesOnObject = Array.from(event.touches).every((touch) => {
+                    const x = (touch.clientX / window.innerWidth) * 2 - 1;
+                    const y = -(touch.clientY / window.innerHeight) * 2 + 1;
+                    raycaster.setFromCamera({ x, y }, camera);
+                    const intersects = raycaster.intersectObject(objRef.current);
+
+                    return intersects.length > 0;
+                });
+
+                if (touchesOnObject) {
+                    const distance = Math.hypot(
+                        touch1.clientX - touch2.clientX,
+                        touch1.clientY - touch2.clientY
+                    );
+
+                    controls.current.dollyToZoom(true, distance / 2);
+                    cancel();
+                }
             } else {
                 controls.current.pan(new THREE.Vector3(-dx, dy, 0));
             }
@@ -52,12 +67,13 @@ const Controls = () => {
 
     useFrame(() => controls.current.update());
 
-    return <orbitControls ref={controls} args={[camera, gl.domElement]} enableZoom="" {...bind()} />;
+    return <orbitControls ref={(ref) => { controls.current = ref; }} args={[camera, gl.domElement]} enableZoom="" {...bind()} />;
 };
 
 const Model = () => {
     const obj = useLoader(OBJLoader, process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj');
-    return <primitive object={obj} />;
+    const objRef = useRef();
+    return <primitive object={obj} ref={objRef} />;
 };
 
 const ObjViewer = ({ width, height }) => {
