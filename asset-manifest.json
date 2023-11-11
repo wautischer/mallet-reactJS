@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mallet/static/css/main.800454b3.css",
+    "main.js": "/mallet/static/js/main.0183160a.js",
+    "index.html": "/mallet/index.html",
+    "main.800454b3.css.map": "/mallet/static/css/main.800454b3.css.map",
+    "main.0183160a.js.map": "/mallet/static/js/main.0183160a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800454b3.css",
+    "static/js/main.0183160a.js"
+  ]
+}
