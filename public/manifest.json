@@ -1,7 +1,7 @@
 {
   "short_name": "mallet",
   "name": "Mallet - Met All Demands",
-  "start_url": "/mallet",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
