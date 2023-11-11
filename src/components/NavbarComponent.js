@@ -9,8 +9,11 @@ const Navbar = () => {
             <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
                     <img src={process.env.PUBLIC_URL + '/images/logo.png'} style={{ width: '40px', marginRight: '-20px' }} alt="Logo" />
+                </NavLink>
+                <NavLink className="navbar-brand" to="/">
                     <span className="d-sm-none"><img src={process.env.PUBLIC_URL + '/images/logo3.png'} style={{ width: '60px'}} alt="Logo" /></span>
                 </NavLink>
+
                 <button
                     className="navbar-toggler"
                     type="button"
