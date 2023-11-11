@@ -1,0 +1,5 @@
+.obj_frame {
+    border-collapse: collapse;
+    border: black solid 4px;
+    border-radius: 25px;
+}
