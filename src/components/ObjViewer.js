@@ -5,6 +5,7 @@ import { extend, useThree, useFrame } from 'react-three-fiber';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { useDrag } from 'react-use-gesture';
 import './components.css';
+import * as THREE from 'three';
 
 extend({ OrbitControls });
 
@@ -13,17 +14,14 @@ const Controls = () => {
     const controls = useRef();
 
     const bind = useDrag(
-        ({ movement: [dx, dy], event, cancel, down }) => {
-            // Check if the event is a touch event
+        ({ movement: [dx, dy], event, cancel }) => {
             const isTouch = event.touches && event.touches.length === 1;
 
-            // If it's not a touch event, use the mouse controls
             if (!isTouch) {
                 controls.current.rotateLeft((dx / window.innerWidth) * 4);
                 controls.current.rotateUp((dy / window.innerHeight) * 4);
             }
 
-            // If it's a touch event, use pinch to zoom and drag to move
             if (event.touches && event.touches.length === 2) {
                 const [touch1, touch2] = event.touches;
                 const distance = Math.hypot(
@@ -31,21 +29,14 @@ const Controls = () => {
                     touch1.clientY - touch2.clientY
                 );
 
-                // Zoom based on the pinch distance
                 controls.current.dollyToZoom(true, distance / 2);
-
-                // Cancel the drag gesture
                 cancel();
             } else {
-                // Drag to move for touch events
-                controls.current.rotateLeft((dx / window.innerWidth) * 4);
-                controls.current.rotateUp((dy / window.innerHeight) * 4);
+                controls.current.pan(new THREE.Vector3(-dx, dy, 0));
             }
         },
         {
-            // Enable touch events
             touch: true,
-            // Allow wheel events to pass through so they don't interfere with touch gestures
             wheel: { enabled: false },
         }
     );
