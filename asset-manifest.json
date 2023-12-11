@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mallet/static/css/main.eb4df328.css",
-    "main.js": "/mallet/static/js/main.130676e2.js",
+    "main.js": "/mallet/static/js/main.567598b6.js",
     "index.html": "/mallet/index.html",
     "main.eb4df328.css.map": "/mallet/static/css/main.eb4df328.css.map",
-    "main.130676e2.js.map": "/mallet/static/js/main.130676e2.js.map"
+    "main.567598b6.js.map": "/mallet/static/js/main.567598b6.js.map"
   },
   "entrypoints": [
     "static/css/main.eb4df328.css",
-    "static/js/main.130676e2.js"
+    "static/js/main.567598b6.js"
   ]
 }
