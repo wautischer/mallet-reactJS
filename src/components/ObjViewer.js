@@ -43,7 +43,7 @@ const ObjViewer = ({width, height}) => {
         <Canvas
             style={{width: `${width}px`, height: `${height}px`}}
             camera={{position: [90, 50, 180], fov: 50}}
-            className={'obj_frame'}
+            //className={'obj_frame'}
         >
             <Controls/>
             <group ref={groupRef} position={[0, 20, 0]}>
