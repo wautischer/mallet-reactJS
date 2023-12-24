@@ -5,7 +5,7 @@ import Navbar from './components/NavbarComponent';
 import Home from './pages/home';
 import About from './pages/about';
 import Product from './pages/product';
-//import Impressum from "./components/ImpressumComponent";
+import Impressum from "./components/ImpressumComponent";
 
 function App() {
     return (
@@ -18,6 +18,7 @@ function App() {
                     <Route path="/product" element={<Product />} />
                 </Routes>
             </HashRouter>
+            <Impressum/>
         </div>
     );
 }
