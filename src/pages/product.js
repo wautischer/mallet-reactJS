@@ -10,7 +10,7 @@ const Product = () => {
             </div>
             <div className="container-center align-items-center d-flex justify-content-center">
                 <div className="d-none d-md-block">
-                    <ObjViewer width={700} height={700} />
+                    <ObjViewer/>
                 </div>
             </div>
         </>
