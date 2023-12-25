@@ -40,12 +40,12 @@ const Navbar = () => {
                     <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item" onClick={closeMenu}>
-                                <NavLink className="nav-link" to="/about" activeClassName="active">
+                                <NavLink className="nav-link" to="/about" activeclassname="active">
                                     About
                                 </NavLink>
                             </li>
                             <li className="nav-item" onClick={closeMenu}>
-                                <NavLink className="nav-link" to="/product" activeClassName="active">
+                                <NavLink className="nav-link" to="/product" activeclassname="active">
                                     Product
                                 </NavLink>
                             </li>
