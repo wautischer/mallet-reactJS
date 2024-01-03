@@ -6,7 +6,7 @@ const Home = () => {
     let isMounted = true;
 
     useEffect(() => {
-        let words = ['Crafting Excellence in Custom Cardholders', 'All demands Met!'],
+        let words = ['Crafting Excellence in Custom Cardholders.', 'All demands Met!'],
             part,
             i = 0,
             offset = 0,
@@ -65,7 +65,7 @@ const Home = () => {
             <div className="container-fluid d-flex align-items-center justify-content-center vh-100 text-center">
                 <div>
                     <h1 className="animate-character">Welcome to Mallet</h1>
-                    <div className="word" ref={wordRef}></div>
+                    <div className="word" ref={wordRef}>{'\u200B'}</div>
                 </div>
             </div>
         </>

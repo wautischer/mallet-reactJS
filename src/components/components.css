@@ -5,6 +5,7 @@ body {
     padding-top: 5px;
 
 }
-.navbar_settings {
-    background-color: #282c34;
+.blur-background {
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
 }

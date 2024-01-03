@@ -21,7 +21,7 @@ body {
             #ff1361 67%,
             #fff800 100%
     );
-    background-size: 200% auto;
+    background-size: 200%;
     color: #fff;
     background-clip: text;
     text-fill-color: transparent;

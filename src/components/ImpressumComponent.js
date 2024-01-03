@@ -7,11 +7,11 @@ const Impressum = () => {
     };
 
     return (
-        <div className={"mt-5 p-4 bg-dark text-white text-center"}>
-            <div className={"row impressum_settings"}>
+        <div className={"p-4 bg-dark text-white text-center"}>
+            <div className={"row"}>
                 <div className={"col-sm-4"}>
-                    <h5>Mallet JC</h5>
-                    <p>Klagenfurt, Österreich</p>
+                    <h5>Mallet</h5>
+                    <a>Klagenfurt, Österreich</a>
                 </div>
                 <div className={"col-sm-4"}>
                     <h5>Contact</h5>
