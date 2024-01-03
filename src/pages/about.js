@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <>
-            <div className="container css_div_padding_top">
+            <div className="container div-padding-top">
                 <h1 className="text-center mb-5">About Us</h1>
                 <section className="py-5">
                     <ul className="timeline">

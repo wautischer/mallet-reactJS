@@ -6,7 +6,7 @@ const Team = () => {
     //eckl, basti, prinzi
     return (
         <>
-            <div className="container css_div_padding_top">
+            <div className="container div-padding-top">
                 <h1 className="text-center mb-5">Meet the Team</h1>
                 <div className="row">
                     <div className="col-sm-4 mx-auto d-flex align-items-center">

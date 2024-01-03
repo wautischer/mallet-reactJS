@@ -3,7 +3,7 @@ import './pages.css';
 
 const Faq = () => {
     return (
-        <div className={"container-fluid css_div_padding_top"}>
+        <div className={"container-fluid div-padding-top"}>
             <h1 className="text-center mb-5">Frequently asked Questions</h1>
             <section className="py-5">
                 <div className="row">
