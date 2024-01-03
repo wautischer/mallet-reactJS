@@ -1,5 +1,5 @@
 import React from "react";
-import './about.css';
+import './pages.css';
 import Impressum from "../components/ImpressumComponent";
 
 const About = () => {

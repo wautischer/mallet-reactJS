@@ -1,10 +1,12 @@
 body {
     font-family: 'Varela Round', serif;
 }
+
 .impressum_settings {
     padding-top: 5px;
 
 }
+
 .blur-background {
     border-radius: 30px;
     backdrop-filter: blur(10px);
