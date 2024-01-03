@@ -60,35 +60,35 @@ const About = () => {
                     </ul>
                 </section>
                 <section className="py-5">
-                    <h3>Mission and Values</h3>
+                    <h3>Our Mission</h3>
                     <p>At Mallet, our mission is to provide a solid solution for custom cardholders. We are
                         dedicated to change the market for robust cardholders. Our commitment to excellence drives us to
                         use
                         state of the art technology whilst watching our environmental footprint.</p>
                     <h3>Our core Values</h3>
                     <ol className="list-group list-group-numbered mb-5">
-                        <li className="list-group-item bg-dark text-white"><b>Integrity:</b> We uphold the highest
+                        <li className="list-group-item text-white bg-color border-0"><b>Integrity:</b> We uphold the highest
                             standards
                             of integrity in all our actions. Transparency, honesty, and ethical practices are at the
                             core of
                             everything we do.
                         </li>
-                        <li className="list-group-item bg-dark text-white"><b>Innovation:</b> We embrace innovation as a
+                        <li className="list-group-item text-white bg-color border-0"><b>Innovation:</b> We embrace innovation as a
                             driving force for progress. Continuously seeking new and better ways, we challenge the
                             status
                             quo to provide cutting-edge solutions.
                         </li>
-                        <li className="list-group-item bg-dark text-white"><b>Customer-Centric:</b> Our customers are at
+                        <li className="list-group-item text-white bg-color border-0"><b>Customer-Centric:</b> Our customers are at
                             the
                             heart of our business. We are committed to understanding their needs and exceeding their
                             expectations through personalized service and exceptional products.
                         </li>
-                        <li className="list-group-item bg-dark text-white"><b>Teamwork:</b> We value collaboration and
+                        <li className="list-group-item text-white bg-color border-0"><b>Teamwork:</b> We value collaboration and
                             believe in the collective strength of our diverse team. Together, we achieve more, fostering
                             a
                             supportive and inclusive work environment.
                         </li>
-                        <li className="list-group-item bg-dark text-white"><b>Social Responsibility:</b> We recognize
+                        <li className="list-group-item text-white bg-color border-0"><b>Social Responsibility:</b> We recognize
                             the
                             impact of our actions on the community and environment. Committed to sustainability and
                             corporate social responsibility, we strive to make a positive contribution to the world.
