@@ -66,34 +66,48 @@ const About = () => {
                         use
                         state of the art technology whilst watching our environmental footprint.</p>
                     <h3>Our core Values</h3>
-                    <ol className="list-group list-group-numbered mb-5">
-                        <li className="list-group-item text-white bg-color border-0"><b>Integrity:</b> We uphold the highest
-                            standards
-                            of integrity in all our actions. Transparency, honesty, and ethical practices are at the
-                            core of
-                            everything we do.
-                        </li>
-                        <li className="list-group-item text-white bg-color border-0"><b>Innovation:</b> We embrace innovation as a
-                            driving force for progress. Continuously seeking new and better ways, we challenge the
-                            status
-                            quo to provide cutting-edge solutions.
-                        </li>
-                        <li className="list-group-item text-white bg-color border-0"><b>Customer-Centric:</b> Our customers are at
-                            the
-                            heart of our business. We are committed to understanding their needs and exceeding their
-                            expectations through personalized service and exceptional products.
-                        </li>
-                        <li className="list-group-item text-white bg-color border-0"><b>Teamwork:</b> We value collaboration and
-                            believe in the collective strength of our diverse team. Together, we achieve more, fostering
-                            a
-                            supportive and inclusive work environment.
-                        </li>
-                        <li className="list-group-item text-white bg-color border-0"><b>Social Responsibility:</b> We recognize
-                            the
-                            impact of our actions on the community and environment. Committed to sustainability and
-                            corporate social responsibility, we strive to make a positive contribution to the world.
-                        </li>
-                    </ol>
+                    <p><b>Integrity:</b> We uphold the
+                        highest
+                        standards
+                        of integrity in all our actions. Transparency, honesty, and ethical practices are at the
+                        core of
+                        everything we do.
+                    </p>
+                    <p>
+                        <b>Innovation:</b> We embrace
+                        innovation as a
+                        driving force for progress. Continuously seeking new and better ways, we challenge the
+                        status
+                        quo to provide cutting-edge solutions.
+                    </p>
+                    <p>
+                        <b>Customer-Centric:</b> Our
+                        customers are at
+                        the
+                        heart of our business. We are committed to understanding their needs and exceeding their
+                        expectations through personalized service and exceptional products.
+                    </p>
+                    <p>
+                        <b>Customer-Centric:</b> Our
+                        customers are at
+                        the
+                        heart of our business. We are committed to understanding their needs and exceeding their
+                        expectations through personalized service and exceptional products.
+                    </p>
+                    <p>
+                        <b>Teamwork:</b> We value
+                        collaboration and
+                        believe in the collective strength of our diverse team. Together, we achieve more, fostering
+                        a
+                        supportive and inclusive work environment.
+                    </p>
+                    <p>
+                        <b>Social Responsibility:</b> We
+                        recognize
+                        the
+                        impact of our actions on the community and environment. Committed to sustainability and
+                        corporate social responsibility, we strive to make a positive contribution to the world.
+                    </p>
                 </section>
                 <section className="py-5">
                     <h3>Our Team</h3>
