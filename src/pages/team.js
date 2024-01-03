@@ -3,12 +3,11 @@ import './pages.css';
 import Impressum from "../components/ImpressumComponent";
 
 const Team = () => {
-    //eckl, basti, prinzi
     return (
         <>
             <div className="container div-padding-top">
                 <h1 className="text-center mb-5">Meet the Team</h1>
-                <div className="row">
+                <div className="row pt-5">
                     <div className="col-sm-4 mx-auto d-flex align-items-center">
                         <div className="card bg-dark">
                             <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Simon"/>
@@ -79,7 +78,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-4 py-4">
+                    <div className="col-sm-4 py-4 mb-4">
                         <div className="card bg-dark">
                             <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Bastian"/>
                             <div className="container text-white">

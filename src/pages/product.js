@@ -31,7 +31,6 @@ const Product = () => {
                             )}
                             {!showLoader && <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'} />}
                         </div>
-
                     </div>
                 </section>
                 <section className="py-sm-5">
@@ -49,7 +48,6 @@ const Product = () => {
                             {!showLoader &&
                                 <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV2.obj'}/>}
                         </div>
-
                     </div>
                 </section>
             </div>
