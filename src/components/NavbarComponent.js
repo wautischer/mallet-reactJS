@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './components.css'
 
 const Navbar = () => {
 
@@ -16,7 +17,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <nav className="navbar navbar-expand-sm navbar-dark fixed-top navbar_settings">
             <div className="container-fluid">
                 <div className="d-flex align-items-center">
                     <NavLink className="navbar-brand" to="/" onClick={closeMenu}>

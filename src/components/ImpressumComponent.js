@@ -7,18 +7,18 @@ const Impressum = () => {
     };
 
     return (
-        <div className={"mt-5 p-4 bg-dark text-white text-center fixed-bottom"}>
-            <div className={"row impressum_padding"}>
+        <div className={"mt-5 p-4 bg-dark text-white text-center"}>
+            <div className={"row impressum_settings"}>
                 <div className={"col-sm-4"}>
-                    <h3>Mallet JC</h3>
+                    <h5>Mallet JC</h5>
                     <p>Klagenfurt, Österreich</p>
                 </div>
                 <div className={"col-sm-4"}>
-                    <h3>Kontakt</h3>
-                    <p>E-Mail: office@mallet.at</p>
+                    <h5>Contact</h5>
+                    <a href= "mailto:office@mallet.at">office@mallet.at</a>
                 </div>
                 <div className={"col-sm-4"}>
-                    <h3>Sonstiges</h3>
+                    <h5>More</h5>
                     <p><a href="#/faq" onClick={navigateToFAQ}>FAQ</a></p>
                 </div>
             </div>

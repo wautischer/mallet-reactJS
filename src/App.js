@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavbarComponent';
@@ -6,7 +5,6 @@ import Home from './pages/home';
 import About from './pages/about';
 import Product from './pages/product';
 import Faq from "./pages/faq";
-import Impressum from "./components/ImpressumComponent";
 
 function App() {
     return (
@@ -20,7 +18,6 @@ function App() {
                     <Route path="/faq" element={<Faq />}/>
                 </Routes>
             </HashRouter>
-            <Impressum/>
         </div>
     );
 }

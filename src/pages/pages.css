@@ -7,3 +7,38 @@ body {
 .css_div_padding_top {
     padding-top: 70px;
 }
+
+.bg-card {
+    background-color: #282c34;
+}
+
+.animate-character {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+    );
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200%;
+    }
+}
+
+.word {
+    color: white;
+    font: 700 normal 2.5em 'Varela Round';
+}

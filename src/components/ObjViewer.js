@@ -23,7 +23,6 @@ export default function ObjViewer() {
         <div style={{ width: "700px", height: "600px" }}>
             <Canvas
                 camera={{ position: [90, 50, 180], fov: 50 }}
-                className="obj_frame"
             >
                 <MyRotatingBox />
                 <ambientLight intensity={0.3} />

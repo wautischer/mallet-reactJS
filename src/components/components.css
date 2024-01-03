@@ -1,8 +1,10 @@
-.obj_frame {
-    border-collapse: collapse;
-    border: black solid 4px;
-    border-radius: 25px;
+body {
+    font-family: 'Varela Round', serif;
 }
-.impressum_padding {
-    padding-top: 20px;
+.impressum_settings {
+    padding-top: 5px;
+
+}
+.navbar_settings {
+    background-color: #282c34;
 }
