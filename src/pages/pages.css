@@ -12,6 +12,24 @@ body {
     height: 400px;
 }
 
+@media (min-width: 576px) {
+    .custom-height {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-height {
+        height: 400px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .loader-margin-top {
+        margin-top: 20px;
+    }
+}
+
 .test-border {
     border-collapse: collapse;
     border: 2px black solid;

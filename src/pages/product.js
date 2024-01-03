@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import './pages.css';
 import ObjViewer from "../components/Viewer3D";
 
@@ -21,32 +21,35 @@ const Product = () => {
                     <h3>V1 Cardholder</h3>
                     <div className="row">
                         <div className="col-sm-6">
-                            <p className="test-height">Some very detailed details.</p>
+                            <p className="custom-height">Some very detailed details.</p>
                         </div>
                         <div className="col-sm-6 position-relative">
                             {showLoader && (
-                                <div className="loader-container">
+                                <div className="loader-container loader-margin-top">
                                     <div className="loader"></div>
                                 </div>
                             )}
                             {!showLoader && <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'} />}
                         </div>
+
                     </div>
                 </section>
-                <section className="py-5">
+                <section className="py-sm-5">
                     <h3>V2 Cardholder</h3>
                     <div className="row">
                         <div className="col-sm-6">
-                            <p className="test-height">Some very detailed details.</p>
+                            <p className="custom-height">Some very detailed details.</p>
                         </div>
                         <div className="col-sm-6 position-relative">
                             {showLoader && (
-                                <div className="loader-container">
+                                <div className="loader-container loader-margin-top">
                                     <div className="loader"></div>
                                 </div>
                             )}
-                            {!showLoader && <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV2.obj'} />}
+                            {!showLoader &&
+                                <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV2.obj'}/>}
                         </div>
+
                     </div>
                 </section>
             </div>
