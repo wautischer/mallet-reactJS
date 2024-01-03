@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div className="d-flex align-items-center">
                     <NavLink className="navbar-brand" to="/" onClick={closeMenu}>
                         <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Logo"
-                             className="img-fluid d-none d-sm-inline" style={{width: '40px', marginLeft: '20px'}}/>
+                             className="img-fluid d-none d-sm-inline" style={{width: '40px', marginLeft: '15px'}}/>
                         <img src={process.env.PUBLIC_URL + '/images/favicon-580x200.png'} style={{width: '60px'}}
                              alt="Logo" className="d-sm-none"/>
                     </NavLink>
