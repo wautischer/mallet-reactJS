@@ -70,7 +70,7 @@ const Reviews = () => {
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>
-                                TImpressed with the Mallet Cardholder's build quality and the thoughtful approach to
+                                Impressed with the Mallet Cardholder's build quality and the thoughtful approach to
                                 sustainability. The slider works seamlessly, and the recycled materials add an
                                 eco-friendly touch. However, a bit more capacity for additional cards would have been
                                 perfect. Still, a reliable choice for anyone in need of a modern and environmentally

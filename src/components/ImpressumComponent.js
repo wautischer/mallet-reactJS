@@ -7,14 +7,9 @@ const Impressum = () => {
     return (
         <div className={"p-4 bg-dark text-white text-center"}>
             <div className={"row"}>
-                <div className={"col-sm-4"}>
+                <div className={"col-sm-4 d-none d-md-block"}>
                     <label>Mallet</label>
                     <button className="btn btn-dark text-white disabled">Carinthia, Austria</button>
-                </div>
-                <div className={"col-sm-4"}>
-                    <label>Contact</label><a href="mailto:office@mallet.at">
-                    <button className="btn btn-dark text-white disabled">office@mallet.at</button>
-                </a>
                 </div>
                 <div className={"col-sm-4"}>
                     <button
@@ -26,10 +21,15 @@ const Impressum = () => {
                         Impressum
                     </button>
                 </div>
+                <div className={"col-sm-4 d-none d-md-block"}>
+                    <label>Contact</label><a href="mailto:office@mallet.at">
+                    <button className="btn btn-dark text-white disabled">office@mallet.at</button>
+                </a>
+                </div>
             </div>
             <div className="row">
                 <div className="col-sm-12">
-                    <b>Copyright © 2024 Mallet. All rights reserved.</b>
+                    <b>© 2024 Mallet. All rights reserved.</b>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ const Impressum = () => {
                             <p><label><b>Legal Form: </b>Junior Company</label></p>
                             <p><label><b>Address: </b>Mössingerstraße 25 / 9020 Klagenfurt CARINTHIA</label></p>
                             <p><label><b>Phone Number: </b>+436601626565</label></p>
-                            <p><label><b>Email Address: </b>office@mallet.at</label></p>
+                            <p><label><b>Email Address: </b><a href="mailto:office@mallet.at"><button className="btn btn-dark text-white disabled">office@mallet.at</button></a></label></p>
                             <p><label><b>Name of CEO: </b>Simon Hürlimann</label></p>
                             <p><label><b>Position: </b>CEO and Founder</label></p>
                             <p><label><b>Registration Number: </b>1241</label></p>
