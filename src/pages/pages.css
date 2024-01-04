@@ -8,8 +8,11 @@ body {
     padding-top: 70px;
 }
 
-.test-height {
-    height: 400px;
+.custom-card-height {
+    min-height: 680px;
+}
+.custom-introduction-height{
+    height: 130px;
 }
 
 @media (min-width: 576px) {
@@ -20,7 +23,7 @@ body {
 
 @media (min-width: 768px) {
     .custom-height {
-        height: 400px;
+        height: 470px;
     }
 }
 

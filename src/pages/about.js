@@ -18,10 +18,9 @@ const About = () => {
                             <h5 className="fw-bold">Establishment of our company</h5>
                             <p className="text-white mb-2 fw-bold">02 November 2023</p>
                             <p className="text-white">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                                necessitatibus adipisci, ad alias, voluptate pariatur officia
-                                repellendus repellat inventore fugit perferendis totam dolor
-                                voluptas et corrupti distinctio maxime corporis optio?
+                                Founded on November 2, 2023, our company stands as a testament to passion, dedication,
+                                and a vision for exceptional products. Committed to blending functionality with
+                                aesthetics, we embark on an ongoing journey of innovation since our establishment.
                             </p>
                         </li>
 
@@ -29,9 +28,10 @@ const About = () => {
                             <h5 className="fw-bold">V1 Cardholder</h5>
                             <p className="text-white mb-2 fw-bold">25 November 2023</p>
                             <p className="text-white">
-                                Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed
-                                aliquet laoreet sapien, eget pulvinar lectus maximus vel.
-                                Phasellus suscipit porta mattis.
+                                Launched on November 25, 2023, the V1 Cardholder represents a milestone in our product
+                                offerings. Crafted with precision and care, it seamlessly combines functionality and
+                                style. With a plastic case and a distinctive custom logo plate made of aluminum, the V1
+                                is a statement of modern design and practicality.
                             </p>
                         </li>
 
@@ -39,11 +39,10 @@ const About = () => {
                             <h5 className="fw-bold">First Customer</h5>
                             <p className="text-white mb-2 fw-bold">11 January 2024</p>
                             <p className="text-white">
-                                Orci varius natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
-                                facilisis erat pellentesque nec. Duis et dui maximus dui aliquam
-                                convallis. Quisque consectetur purus erat, et ullamcorper sapien
-                                tincidunt vitae.
+                                On January 11, 2024, we celebrated a momentous occasion – our first customer! This
+                                marked the beginning of our journey towards providing quality products and exceptional
+                                service. We extend our heartfelt gratitude to our inaugural customer for being a part of
+                                the Mallet family. Cheers to many more milestones ahead!
                             </p>
                         </li>
 
@@ -51,10 +50,11 @@ const About = () => {
                             <h5 className="fw-bold">V2 Cardholder</h5>
                             <p className="text-white mb-2 fw-bold">18 January 2024</p>
                             <p className="text-white">
-                                Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
-                                et urna sit amet massa dapibus tristique non finibus ligula. Nam
-                                pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit
-                                vulputate mattis.
+                                Introducing the V2 Cardholder! Unveiled on January 18, 2024, our latest edition combines
+                                functionality and style seamlessly. Crafted with precision, the V2 features a durable
+                                plastic case housing a sleek aluminum slider and custom logo plate. Elevate your
+                                card-carrying experience with this refined accessory designed for the modern individual.
+                                Explore the next level of Mallet craftsmanship with the V2 Cardholder.
                             </p>
                         </li>
                     </ul>
@@ -112,42 +112,56 @@ const About = () => {
                     <h3>Our Team</h3>
                     <div className="row">
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark">
+                            <div className="card bg-dark custom-card-height d-flex flex-column">
                                 <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Simon"/>
                                 <div className="container text-white">
-                                    <h2>Simon Hürlimann</h2>
-                                    <p className="title">Chief Executive Officer &amp; Founder</p>
-                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:huerlimann@mallet.at?subject=Contact">
+                                    <h2><span className="animate-text">S</span>imon <span className="animate-text">H</span>ürlimann
+                                    </h2>
+                                    <p className="title">CEO &amp; Founder</p>
+                                    <p className="custom-introduction-height">As the Chief Executive Officer, Simon is the visionary leader behind Mallet. With a
+                                        keen understanding of the industry and a passion for innovation, he drives the
+                                        company's strategic direction and ensures Mallet continues to excel.</p>
+                                </div>
+                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                                    <a href="mailto:huerlimann@mallet.at?subject=Contact">
                                         <button className="btn btn-dark text-white">huerlimann@mallet.at</button>
-                                    </a></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark">
+                            <div className="card bg-dark custom-card-height d-flex flex-column">
                                 <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Laurin"/>
                                 <div className="container text-white">
-                                    <h2>Laurin Wautischer</h2>
+                                    <h2><span className="animate-text">L</span>aurin <span className="animate-text">W</span>autischer
+                                    </h2>
                                     <p className="title">Web Developer &amp; Founder</p>
-                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:wautischer@mallet.at?subject=Contact">
+                                    <p className="custom-introduction-height">Laurin is the creative force behind our digital presence. As a skilled web developer,
+                                        he brings websites and online experiences to life, ensuring Mallet's online platform
+                                        reflects the brand's innovation and user-friendly design.</p>
+                                </div>
+                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                                    <a href="mailto:wautischer@mallet.at?subject=Contact">
                                         <button className="btn btn-dark text-white">wautischer@mallet.at</button>
-                                    </a></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark">
-                                <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'}
-                                     alt="Matthias"/>
+                            <div className="card bg-dark custom-card-height d-flex flex-column">
+                                <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Matthias"/>
                                 <div className="container text-white">
-                                    <h2>Matthias Eckl</h2>
+                                    <h2><span className="animate-text">M</span>atthias <span
+                                        className="animate-text">E</span>ckl</h2>
                                     <p className="title">Mechanical Engineer &amp; Founder</p>
-                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:eckl@mallet.at?subject=Contact">
+                                    <p className="custom-introduction-height">Matthias is the engineering genius at Mallet. With a focus on mechanical design, he
+                                        crafts innovative solutions, ensuring that Mallet's products not only look stunning
+                                        but function flawlessly.</p>
+                                </div>
+                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                                    <a href="mailto:eckl@mallet.at?subject=Contact">
                                         <button className="btn btn-dark text-white">eckl@mallet.at</button>
-                                    </a></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
