@@ -147,7 +147,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row-cols-2 text-center pt-2">
+                    <div className="row-cols-12 text-center pt-2">
                         <button onClick={navigateToTeam} className="btn btn-dark text-white">See the full Team</button>
                     </div>
                 </section>

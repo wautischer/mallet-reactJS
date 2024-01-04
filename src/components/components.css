@@ -11,3 +11,13 @@ body {
     border-radius: 30px;
     backdrop-filter: blur(10px);
 }
+
+.custom-height-reviews {
+    min-height: 190px;
+}
+
+@media (max-width: 576px) {
+    .custom-height-reviews {
+        min-height: 280px;
+    }
+}

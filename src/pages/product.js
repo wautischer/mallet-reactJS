@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './pages.css';
 import ObjViewer from "../components/Viewer3D";
 import Reviews from "../components/Reviews";
+import Impressum from "../components/ImpressumComponent";
 
 const Product = () => {
     const [showLoader, setShowLoader] = useState(true);
@@ -17,7 +18,7 @@ const Product = () => {
     return (
         <>
             <div className={"container div-padding-top"}>
-                <h1 className="text-center mb-5">Product Preview and Details</h1>
+                <h1 className="text-center mb-5">Products and Reviews</h1>
                 <section className="py-5">
                     <h3>V1 Cardholder</h3>
                     <div className="row">
@@ -30,7 +31,8 @@ const Product = () => {
                                     <div className="loader"></div>
                                 </div>
                             )}
-                            {!showLoader && <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'} />}
+                            {!showLoader &&
+                                <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'}/>}
                         </div>
                     </div>
                 </section>
@@ -54,8 +56,14 @@ const Product = () => {
                 <section className="py-5">
                     <h3>Reviews & Feedback</h3>
                     <Reviews/>
+                    <div className="row-cols-12 text-center pt-2">
+                        <a href="mailto:feedback@mallet.at?subject=Feedback">
+                            <button className="btn btn-dark text-white">Send Us feedback</button>
+                        </a>
+                    </div>
                 </section>
             </div>
+            <Impressum/>
         </>
     );
 };
