@@ -119,7 +119,7 @@ const About = () => {
                                     <h2>Simon Hürlimann</h2>
                                     <p className="title">Chief Executive Officer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:office@mallet.at">hürlimann@mallet.at</a></p>
+                                    <p><a href="mailto:huerlimann@mallet.at?subject=Contact"><button className="btn btn-dark text-white">huerlimann@mallet.at</button></a></p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const About = () => {
                                     <h2>Laurin Wautischer</h2>
                                     <p className="title">Web Developer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:office@mallet.at">wautischer@mallet.at</a></p>
+                                    <p><a href="mailto:wautischer@mallet.at?subject=Contact"><button className="btn btn-dark text-white">wautischer@mallet.at</button></a></p>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ const About = () => {
                                     <h2>Matthias Eckl</h2>
                                     <p className="title">Mechanical Engineer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:office@mallet.at">eckl@mallet.at</a></p>
+                                    <p><a href="mailto:eckl@mallet.at?subject=Contact"><button className="btn btn-dark text-white">eckl@mallet.at</button></a></p>
                                 </div>
                             </div>
                         </div>

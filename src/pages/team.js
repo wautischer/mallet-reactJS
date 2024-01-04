@@ -15,7 +15,7 @@ const Team = () => {
                                 <h2>Simon Hürlimann</h2>
                                 <p className="title">CEO &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">hürlimann@mallet.at</a></p>
+                                <p><a href="mailto:huerlimann@mallet.at?subject=Contact"><button className="btn btn-dark text-white">huerlimann@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Team = () => {
                                 <h2>Laurin Wautischer</h2>
                                 <p className="title">Web Developer &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">wautischer@mallet.at</a></p>
+                                <p><a href="mailto:wautischer@mallet.at?subject=Contact"><button className="btn btn-dark text-white">wautischer@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Team = () => {
                                 <h2>Stefan Schaar</h2>
                                 <p className="title">Marketing &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">schaar@mallet.at</a></p>
+                                <p><a href="mailto:schaar@mallet.at?subject=Contact"><button className="btn btn-dark text-white">schaar@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Team = () => {
                                 <h2>Thomas Hundsbichler</h2>
                                 <p className="title">Finances &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">hundsbichler@mallet.at</a></p>
+                                <p><a href="mailto:hundsbichler@mallet.at?subject=Contact"><button className="btn btn-dark text-white">hundsbichler@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const Team = () => {
                                 <h2>Matthias Eckl</h2>
                                 <p className="title">Mechanical Engineer &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">eckl@mallet.at</a></p>
+                                <p><a href="mailto:eckl@mallet.at?subject=Contact"><button className="btn btn-dark text-white">eckl@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ const Team = () => {
                                 <h2>Maximilian Prinz</h2>
                                 <p className="title">Intern</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">prinz@mallet.at</a></p>
+                                <p><a href="mailto:prinz@mallet.at?subject=Contact"><button className="btn btn-dark text-white">prinz@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ const Team = () => {
                                 <h2>Bastian Krassnitzer</h2>
                                 <p className="title">Design &amp; Founder</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p><a href="mailto:office@mallet.at">krassnitzer@mallet.at</a></p>
+                                <p><a href="mailto:krassnitzer@mallet.at?subject=Contact"><button className="btn btn-dark text-white">krassnitzer@mallet.at</button></a></p>
                             </div>
                         </div>
                     </div>
