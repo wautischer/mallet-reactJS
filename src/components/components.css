@@ -18,6 +18,6 @@ body {
 
 @media (max-width: 576px) {
     .custom-height-reviews {
-        min-height: 280px;
+        min-height: 320px;
     }
 }

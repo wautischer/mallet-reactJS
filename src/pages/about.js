@@ -11,7 +11,7 @@ const About = () => {
     return (
         <>
             <div className="container div-padding-top">
-                <h1 className="text-center mb-5">About Us</h1>
+                <h1 className="text-center mb-5 animate-heading">About Us</h1>
                 <section className="py-5">
                     <ul className="timeline">
                         <li className="timeline-item mb-5">
@@ -60,12 +60,11 @@ const About = () => {
                     </ul>
                 </section>
                 <section className="py-5">
-                    <h3>Our Mission</h3>
+                    <h3>Our Mission and core Values</h3>
                     <p>At Mallet, our mission is to provide a solid solution for custom cardholders. We are
                         dedicated to change the market for robust cardholders. Our commitment to excellence drives us to
                         use
                         state of the art technology whilst watching our environmental footprint.</p>
-                    <h3>Our core Values</h3>
                     <p><b>Integrity:</b> We uphold the
                         highest
                         standards
@@ -119,7 +118,9 @@ const About = () => {
                                     <h2>Simon Hürlimann</h2>
                                     <p className="title">Chief Executive Officer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:huerlimann@mallet.at?subject=Contact"><button className="btn btn-dark text-white">huerlimann@mallet.at</button></a></p>
+                                    <p><a href="mailto:huerlimann@mallet.at?subject=Contact">
+                                        <button className="btn btn-dark text-white">huerlimann@mallet.at</button>
+                                    </a></p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +131,9 @@ const About = () => {
                                     <h2>Laurin Wautischer</h2>
                                     <p className="title">Web Developer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:wautischer@mallet.at?subject=Contact"><button className="btn btn-dark text-white">wautischer@mallet.at</button></a></p>
+                                    <p><a href="mailto:wautischer@mallet.at?subject=Contact">
+                                        <button className="btn btn-dark text-white">wautischer@mallet.at</button>
+                                    </a></p>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +145,9 @@ const About = () => {
                                     <h2>Matthias Eckl</h2>
                                     <p className="title">Mechanical Engineer &amp; Founder</p>
                                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p><a href="mailto:eckl@mallet.at?subject=Contact"><button className="btn btn-dark text-white">eckl@mallet.at</button></a></p>
+                                    <p><a href="mailto:eckl@mallet.at?subject=Contact">
+                                        <button className="btn btn-dark text-white">eckl@mallet.at</button>
+                                    </a></p>
                                 </div>
                             </div>
                         </div>

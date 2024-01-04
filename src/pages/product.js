@@ -18,9 +18,9 @@ const Product = () => {
     return (
         <>
             <div className={"container div-padding-top"}>
-                <h1 className="text-center mb-5">Products and Reviews</h1>
+                <h1 className="text-center mb-5 animate-heading">Products and Reviews</h1>
                 <section className="py-5">
-                    <h3>V1 Cardholder</h3>
+                    <h3>Cardholder <span className="animate-text">V1.0</span></h3>
                     <div className="row">
                         <div className="col-sm-6">
                             <p className="custom-height">Some very detailed details.</p>
@@ -37,7 +37,7 @@ const Product = () => {
                     </div>
                 </section>
                 <section className="py-sm-5">
-                    <h3>V2 Cardholder</h3>
+                    <h3>Cardholder <span className="animate-text">V2.0</span></h3>
                     <div className="row">
                         <div className="col-sm-6">
                             <p className="custom-height">Some very detailed details.</p>
@@ -54,7 +54,7 @@ const Product = () => {
                     </div>
                 </section>
                 <section className="py-5">
-                    <h3>Reviews & Feedback</h3>
+                    <h3>Reviews <span className="animate-text">&</span> Feedback</h3>
                     <Reviews/>
                     <div className="row-cols-12 text-center pt-2">
                         <a href="mailto:feedback@mallet.at?subject=Feedback">
