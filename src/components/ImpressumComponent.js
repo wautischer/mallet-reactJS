@@ -64,10 +64,6 @@ const Impressum = () => {
                                 serves as the point of contact for legal inquiries.
                             </p>
                         </div>
-
-                        <div className="modal-footer bg-dark text-white border-0">
-                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        </div>
                     </div>
                 </div>
             </div>
