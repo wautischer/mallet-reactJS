@@ -20,7 +20,7 @@ const Product = () => {
             <div className={"container div-padding-top"}>
                 <h1 className="text-center mb-5 animate-heading">Products and Reviews</h1>
                 <section className="py-5">
-                    <h3>Cardholder <span className="animate-text">V1.0</span></h3>
+                    <h3>Cardholder <span className="animate-text">V1.0</span> 14,99€</h3>
                     <div className="row">
                         <div className="col-sm-6 custom-height">
                             <p>The V1.0 edition combines a robust plastic case with a
@@ -56,7 +56,7 @@ const Product = () => {
                     </div>
                 </section>
                 <section className="py-sm-5">
-                    <h3>Cardholder <span className="animate-text">V2.0</span></h3>
+                    <h3>Cardholder <span className="animate-text">V2.0</span> 19,99€</h3>
                     <div className="row">
                         <div className="col-sm-6 custom-height">
                             <p>In our V2.0 edition, we have retained the durable plastic case

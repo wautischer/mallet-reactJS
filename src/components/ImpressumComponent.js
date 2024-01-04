@@ -29,11 +29,11 @@ const Impressum = () => {
             </div>
             <div className="row">
                 <div className="col-sm-12">
-                    <b>Copyright © 2023 Mallet. All rights reserved.</b>
+                    <b>Copyright © 2024 Mallet. All rights reserved.</b>
                 </div>
             </div>
 
-            <div className="modal" id="myModal">
+            <div className="modal fade" id="myModal">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
                         <div className="modal-header text-white bg-dark border-0">
