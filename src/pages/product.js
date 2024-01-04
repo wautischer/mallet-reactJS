@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './pages.css';
 import ObjViewer from "../components/Viewer3D";
+import Reviews from "../components/Reviews";
 
 const Product = () => {
     const [showLoader, setShowLoader] = useState(true);
@@ -49,6 +50,10 @@ const Product = () => {
                                 <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV2.obj'}/>}
                         </div>
                     </div>
+                </section>
+                <section className="py-5">
+                    <h3>Reviews & Feedback</h3>
+                    <Reviews/>
                 </section>
             </div>
         </>
