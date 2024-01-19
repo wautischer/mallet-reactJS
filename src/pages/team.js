@@ -17,8 +17,7 @@ const Team = () => {
                                 <p className="title">CEO</p>
                                 <div className="pb-2">
                                     As the Chief Executive Officer, Simon is the visionary leader behind Mallet. With a
-                                    keen understanding of the industry and a passion for innovation, he drives the
-                                    company's strategic direction and ensures Mallet continues to excel.
+                                    keen understanding of the industry, he drives the company's strategic direction and ensures Mallet continues to excel.
                                 </div>
                                 <p>
                                     <a href="mailto:huerlimann@mallet.at?subject=Contact">
@@ -121,7 +120,8 @@ const Team = () => {
                                 <h2><span className="animate-text">P</span>rinz</h2>
                                 <p className="title">Facility Manager</p>
                                 <div className="pb-2">
-                                    Maximilian Prinz, our Facility Manager, ensures smooth facility operations and fosters a conducive team environment with his meticulous attention and organizational skills.<p>&#x200b;</p>
+                                    Maximilian Prinz, our Facility Manager, plays a key role in ensuring seamless operations and cultivating a positive team environment through his attention to detail and organizational skills.
+                                    <p>&#x200b;</p>
                                 </div>
                                 <p>
                                     <a href="mailto:prinz@mallet.at?subject=Contact">

@@ -112,62 +112,69 @@ const About = () => {
                     <h3>Our Team</h3>
                     <div className="row">
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark custom-card-height d-flex flex-column">
+                            <div className="card bg-transparent blur-background d-flex flex-column">
                                 <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Simon"/>
                                 <div className="container text-white">
-                                    <h2><span className="animate-text">S</span>imon <span className="animate-text">H</span>ürlimann
-                                    </h2>
-                                    <p className="title">CEO &amp; Founder</p>
-                                    <p className="custom-introduction-height">As the Chief Executive Officer, Simon is the visionary leader behind Mallet. With a
-                                        keen understanding of the industry and a passion for innovation, he drives the
-                                        company's strategic direction and ensures Mallet continues to excel.</p>
-                                </div>
-                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-                                    <a href="mailto:huerlimann@mallet.at?subject=Contact">
-                                        <button className="btn btn-dark text-white">huerlimann@mallet.at</button>
-                                    </a>
+                                    <h2><span className="animate-text">S</span>imon</h2>
+                                    <h2><span className="animate-text">H</span>ürlimann</h2>
+                                    <p className="title">CEO</p>
+                                    <div className="pb-2">
+                                        As the Chief Executive Officer, Simon is the visionary leader behind Mallet. With a
+                                        keen understanding of the industry, he drives the company's strategic direction and ensures Mallet continues to excel.
+                                    </div>
+                                    <p></p>
+                                    <p className="text-center">
+                                        <a href="mailto:huerlimann@mallet.at?subject=Contact">
+                                            <button className="btn btn-dark text-white bg-transparent blur-background border-white">Contact Me!</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark custom-card-height d-flex flex-column">
+                            <div className="card bg-transparent blur-background d-flex flex-column">
                                 <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Laurin"/>
                                 <div className="container text-white">
-                                    <h2><span className="animate-text">L</span>aurin <span className="animate-text">W</span>autischer
-                                    </h2>
-                                    <p className="title">Web Developer &amp; Founder</p>
-                                    <p className="custom-introduction-height">Laurin is the creative force behind our digital presence. As a skilled web developer,
+                                    <h2><span className="animate-text">L</span>aurin</h2>
+                                    <h2><span className="animate-text">W</span>autischer</h2>
+                                    <p className="title">Web Developer</p>
+                                    <div className="pb-2">
+                                        Laurin is the creative force behind our digital presence. As a skilled web developer,
                                         he brings websites and online experiences to life, ensuring Mallet's online platform
-                                        reflects the brand's innovation and user-friendly design.</p>
-                                </div>
-                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-                                    <a href="mailto:wautischer@mallet.at?subject=Contact">
-                                        <button className="btn btn-dark text-white">wautischer@mallet.at</button>
-                                    </a>
+                                        reflects the brand's innovation and user-friendly design.
+                                    </div>
+                                    <p></p>
+                                    <p className="text-center">
+                                        <a href="mailto:wautischer@mallet.at?subject=Contact">
+                                            <button className="btn btn-dark text-white bg-transparent blur-background border-white">Contact Me!</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-dark custom-card-height d-flex flex-column">
+                            <div className="card bg-transparent blur-background d-flex flex-column">
                                 <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Matthias"/>
                                 <div className="container text-white">
-                                    <h2><span className="animate-text">M</span>atthias <span
-                                        className="animate-text">E</span>ckl</h2>
-                                    <p className="title">Mechanical Engineer &amp; Founder</p>
-                                    <p className="custom-introduction-height">Matthias is the engineering genius at Mallet. With a focus on mechanical design, he
+                                    <h2><span className="animate-text">M</span>atthias</h2>
+                                    <h2><span className="animate-text">E</span>ckl</h2>
+                                    <p className="title">Product Designer</p>
+                                    <div className="pb-2">
+                                        Matthias is the engineering genius at Mallet. With a focus on mechanical design, he
                                         crafts innovative solutions, ensuring that Mallet's products not only look stunning
-                                        but function flawlessly.</p>
-                                </div>
-                                <div className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-                                    <a href="mailto:eckl@mallet.at?subject=Contact">
-                                        <button className="btn btn-dark text-white">eckl@mallet.at</button>
-                                    </a>
+                                        but function flawlessly. <p>&#x200b;</p>
+                                    </div>
+                                    <p className="text-center">
+                                        <a href="mailto:eckl@mallet.at?subject=Contact">
+                                            <button className="btn btn-dark text-white bg-transparent blur-background border-white">Contact Me!</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="row-cols-12 text-center pt-2">
-                        <button onClick={navigateToTeam} className="btn btn-dark text-white">See the full Team</button>
+                        <button onClick={navigateToTeam} className="btn bg-transparent blur-background border-white text-white">See the full Team</button>
                     </div>
                 </section>
             </div>

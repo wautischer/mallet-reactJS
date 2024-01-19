@@ -14,9 +14,9 @@ const Reviews = () => {
                 <button type="button" data-bs-target="#review-carousel" data-bs-slide-to="5"></button>
             </div>
 
-            <div className="carousel-inner custom-height-reviews">
+            <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>
@@ -28,7 +28,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>
@@ -41,7 +41,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>
@@ -54,7 +54,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>Absolutely delighted with my new cardholder! The craftsmanship
@@ -66,7 +66,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>
@@ -80,7 +80,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <div className="card text-white bg-card border-0">
+                    <div className="card text-white bg-transparent blur-background border-0">
                         <div className="card-body">
                             <p className="card-title">⭐⭐⭐⭐⭐ Product: <b>Cardholder V1.0</b></p>
                             <p className="card-text"><q>The cardholder's quality is outstanding, and the attention to

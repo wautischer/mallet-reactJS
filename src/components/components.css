@@ -1,5 +1,6 @@
 body {
     font-family: 'Varela Round', serif;
+    background-image: linear-gradient(180deg, #282c34, black);
 }
 
 .impressum_settings {
@@ -18,6 +19,6 @@ body {
 
 @media (max-width: 576px) {
     .custom-height-reviews {
-        min-height: 320px;
+        min-height: 350px;
     }
 }

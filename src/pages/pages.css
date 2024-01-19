@@ -1,5 +1,6 @@
 body {
     background-color: #282c34;
+    background-image: linear-gradient(180deg, #282c34, black);
     color: white;
     font-family: 'Varela Round', serif;
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .timeline {
-    border-left: 3px solid #212529;
+    border-left: 3px solid grey;
     position: relative;
     list-style: none;
 }
@@ -80,7 +81,7 @@ body {
 }
 
 .timeline .timeline-item:after {
-    background-color: #212529;
+    background-color: grey;
     left: -41px;
     border-radius: 50%;
     height: 15px;

@@ -55,7 +55,7 @@ const Product = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-sm-5">
+                <section className="py-5">
                     <h3>Cardholder <span className="animate-text">V2.0</span> 19,99€</h3>
                     <div className="row">
                         <div className="col-sm-6 custom-height">
@@ -97,7 +97,7 @@ const Product = () => {
                     <Reviews/>
                     <div className="row-cols-12 text-center pt-2">
                         <a href="mailto:feedback@mallet.at?subject=Feedback">
-                            <button className="btn btn-dark text-white">Send Us feedback</button>
+                            <button className="btn btn-dark bg-transparent border-0 text-white">Send Us feedback</button>
                         </a>
                     </div>
                 </section>

@@ -5,16 +5,16 @@ import '../pages/pages.css'
 const Impressum = () => {
 
     return (
-        <div className={"p-4 bg-dark text-white text-center"}>
+        <div className={"p-4 bg-transparent text-white text-center"}>
             <div className={"row"}>
                 <div className={"col-sm-4 d-none d-md-block"}>
                     <label>Mallet</label>
-                    <button className="btn btn-dark text-white disabled">Carinthia, Austria</button>
+                    <button className="btn btn-dark text-white disabled bg-transparent border-0">Carinthia, Austria</button>
                 </div>
                 <div className={"col-sm-4"}>
                     <button
                         type="button"
-                        className="btn btn-dark text-white"
+                        className="btn btn-dark bg-transparent border-0 text-white"
                         data-bs-toggle="modal"
                         data-bs-target="#myModal"
                     >
@@ -23,7 +23,7 @@ const Impressum = () => {
                 </div>
                 <div className={"col-sm-4 d-none d-md-block"}>
                     <label>Contact</label><a href="mailto:office@mallet.at">
-                    <button className="btn btn-dark text-white disabled">office@mallet.at</button>
+                    <button className="btn btn-dark text-white bg-transparent disabled border-0">office@mallet.at</button>
                 </a>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Impressum = () => {
                     <div className="modal-content">
                         <div className="modal-header text-white bg-dark border-0">
                             <h4 className="modal-title"><span className="animate-text">Impressum</span></h4>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
+                            <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                         </div>
                         <div className="modal-body bg-dark text-white text-start border-0">
                             <p><label><b>Company Name: </b>Mallet</label></p>
