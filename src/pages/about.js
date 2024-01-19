@@ -113,7 +113,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-sm-4 py-4">
                             <div className="card bg-dark custom-card-height d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Simon"/>
+                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Simon"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">S</span>imon <span className="animate-text">H</span>ürlimann
                                     </h2>
@@ -131,7 +131,7 @@ const About = () => {
                         </div>
                         <div className="col-sm-4 py-4">
                             <div className="card bg-dark custom-card-height d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Laurin"/>
+                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Laurin"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">L</span>aurin <span className="animate-text">W</span>autischer
                                     </h2>
@@ -149,7 +149,7 @@ const About = () => {
                         </div>
                         <div className="col-sm-4 py-4">
                             <div className="card bg-dark custom-card-height d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/android-chrome-512x512.png'} alt="Matthias"/>
+                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Matthias"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">M</span>atthias <span
                                         className="animate-text">E</span>ckl</h2>

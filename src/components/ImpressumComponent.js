@@ -45,9 +45,8 @@ const Impressum = () => {
                             <p><label><b>Legal Form: </b>Junior Company</label></p>
                             <p><label><b>Address: </b>Mössingerstraße 25 / 9020 Klagenfurt CARINTHIA</label></p>
                             <p><label><b>Phone Number: </b>+436601626565</label></p>
-                            <p><label><b>Email Address: </b><a href="mailto:office@mallet.at"><button className="btn btn-dark text-white disabled">office@mallet.at</button></a></label></p>
+                            <p><label><b>Email Address: </b><a href="mailto:office@mallet.at">office@mallet.at</a></label></p>
                             <p><label><b>Name of CEO: </b>Simon Hürlimann</label></p>
-                            <p><label><b>Position: </b>CEO and Founder</label></p>
                             <p><label><b>Registration Number: </b>1241</label></p>
                             <p><label><b>Regulatory Authority: </b>Junior Achievement Austria</label></p>
                             <p>

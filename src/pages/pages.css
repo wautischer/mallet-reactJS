@@ -8,13 +8,6 @@ body {
     padding-top: 70px;
 }
 
-.custom-card-height {
-    min-height: 680px;
-}
-.custom-introduction-height{
-    height: 130px;
-}
-
 @media (min-width: 576px) {
     .custom-height {
         height: auto;
