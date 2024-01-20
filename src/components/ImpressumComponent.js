@@ -27,20 +27,15 @@ const Impressum = () => {
                 </a>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-sm-12">
-                    <b>© 2024 Mallet. All rights reserved.</b>
-                </div>
-            </div>
 
-            <div className="modal fade" id="myModal">
+            <div className="modal fade bg-transparent blur-background" id="myModal">
                 <div className="modal-dialog modal-xl">
-                    <div className="modal-content">
-                        <div className="modal-header text-white bg-dark border-0">
+                    <div className="modal-conten">
+                        <div className="modal-header text-white border-0">
                             <h4 className="modal-title"><span className="animate-text">Impressum</span></h4>
                             <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                         </div>
-                        <div className="modal-body bg-dark text-white text-start border-0">
+                        <div className="modal-body text-white text-start border-0">
                             <p><label><b>Company Name: </b>Mallet</label></p>
                             <p><label><b>Legal Form: </b>Junior Company</label></p>
                             <p><label><b>Address: </b>Mössingerstraße 25 / 9020 Klagenfurt CARINTHIA</label></p>
@@ -62,6 +57,7 @@ const Impressum = () => {
                                 and monitored by the association Junior Achievement Austria. Therefore, the association
                                 serves as the point of contact for legal inquiries.
                             </p>
+                            <b>© 2024 Mallet. All rights reserved.</b>
                         </div>
                     </div>
                 </div>

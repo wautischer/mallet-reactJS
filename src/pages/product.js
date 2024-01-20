@@ -97,7 +97,7 @@ const Product = () => {
                     <Reviews/>
                     <div className="row-cols-12 text-center pt-2">
                         <a href="mailto:feedback@mallet.at?subject=Feedback">
-                            <button className="btn btn-dark bg-transparent border-0 text-white">Send Us feedback</button>
+                            <button className="btn bg-white text-black blur-background border-white">Send Us feedback</button>
                         </a>
                     </div>
                 </section>

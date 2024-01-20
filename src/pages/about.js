@@ -112,8 +112,8 @@ const About = () => {
                     <h3>Our Team</h3>
                     <div className="row">
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-transparent blur-background d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Simon"/>
+                            <div className="card bg-transparent blur-background d-flex flex-column border-0">
+                                <img src={process.env.PUBLIC_URL + '/images/team/Huerlimann.png'} alt="Simon" className="custom-img-styles"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">S</span>imon</h2>
                                     <h2><span className="animate-text">H</span>ürlimann</h2>
@@ -132,8 +132,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-transparent blur-background d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Laurin"/>
+                            <div className="card bg-transparent blur-background d-flex flex-column border-0">
+                                <img src={process.env.PUBLIC_URL + '/images/team/Wautischer.png'} alt="Laurin" className="custom-img-styles"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">L</span>aurin</h2>
                                     <h2><span className="animate-text">W</span>autischer</h2>
@@ -153,8 +153,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-sm-4 py-4">
-                            <div className="card bg-transparent blur-background d-flex flex-column">
-                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Matthias"/>
+                            <div className="card bg-transparent blur-background d-flex flex-column border-0">
+                                <img src={process.env.PUBLIC_URL + '/images/team/Eckl.png'} alt="Matthias" className="custom-img-styles"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">M</span>atthias</h2>
                                     <h2><span className="animate-text">E</span>ckl</h2>
@@ -174,7 +174,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="row-cols-12 text-center pt-2">
-                        <button onClick={navigateToTeam} className="btn bg-transparent blur-background border-white text-white">See the full Team</button>
+                        <button onClick={navigateToTeam} className="btn bg-white text-black blur-background border-white">See the full Team</button>
                     </div>
                 </section>
             </div>

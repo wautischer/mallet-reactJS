@@ -38,7 +38,7 @@ const Home = () => {
                 }
             }
 
-            part = words[i].substr(0, offset);
+            part = words[i].substring(0, offset);
 
             if (skip_count === 0) {
                 if (forwards) {
@@ -64,7 +64,8 @@ const Home = () => {
         <>
             <div className="container-fluid d-flex align-items-center justify-content-center vh-100 text-center">
                 <div>
-                    <h1 className="animate-character">Welcome to Mallet</h1>
+                    <div className="word">Welcome to</div>
+                    <h1 className="animate-character">Mallet</h1>
                     <div className="word" ref={wordRef}>{'\u200B'}</div>
                 </div>
             </div>
