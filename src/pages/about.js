@@ -173,8 +173,8 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row-cols-12 text-center pt-2">
-                        <button onClick={navigateToTeam} className="btn bg-white text-black blur-background border-white">See the full Team</button>
+                    <div className="row-cols-12 text-center pt-4">
+                        <button onClick={navigateToTeam} className="btn bg-white text-black blur-background border-white">See the full Team!</button>
                     </div>
                 </section>
             </div>

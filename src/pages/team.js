@@ -114,7 +114,7 @@ const Team = () => {
                     </div>
                     <div className="col-sm-4 py-4">
                         <div className="card bg-transparent blur-background d-flex flex-column border-0">
-                            <img src={process.env.PUBLIC_URL + '/images/team/Prinz.png'} alt="Maximilian" className="custom-img-styles"/>
+                            <img src={process.env.PUBLIC_URL + '/images/team/Prinz.gif'} alt="Maximilian" className="custom-img-styles"/>
                             <div className="container text-white">
                                 <h2><span className="animate-text">M</span>aximilian</h2>
                                 <h2><span className="animate-text">P</span>rinz</h2>
