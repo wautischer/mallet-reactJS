@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './pages.css';
 import ObjViewer from "../components/Viewer3D";
 import Reviews from "../components/Reviews";
-import Impressum from "../components/ImpressumComponent";
+import Impressum from "../components/Impressum";
 
 const Product = () => {
     const [showLoader, setShowLoader] = useState(true);

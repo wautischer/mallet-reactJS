@@ -11,7 +11,7 @@ function Viewer3D(props) {
     });
 
     return (
-        <mesh ref={myMesh} position={[0, 15, 0]}>
+        <mesh ref={myMesh} position={[0, -50, 0]}>
             <primitive object={obj} />
         </mesh>
     );
@@ -27,8 +27,8 @@ export default function ObjViewer(props) {
                         camera={{ position: [0, 0, 180], fov: 50 }}
                     >
                         <Viewer3D documentName={props.documentName} />
-                        <ambientLight intensity={0.3} />
-                        <directionalLight intensity={0.5} position={[0, 0, 25]} />
+                        <ambientLight intensity={.35} />
+                        <directionalLight intensity={.35} position={[0, 0, 25]} />
                     </Canvas>
                 </div>
             </div>

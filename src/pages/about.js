@@ -1,6 +1,6 @@
 import React from "react";
 import './pages.css';
-import Impressum from "../components/ImpressumComponent";
+import Impressum from "../components/Impressum";
 
 const About = () => {
 
