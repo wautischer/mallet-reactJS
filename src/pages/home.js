@@ -3,6 +3,7 @@ import './pages.css';
 
 const Home = () => {
     const wordRef = useRef(null);
+    const wordRefMobile = useRef(null);
     let isMounted = true;
 
     useEffect(() => {
@@ -50,6 +51,7 @@ const Home = () => {
 
             part = part || '\u200B';
             wordRef.current.innerText = part;
+            wordRefMobile.current.innerText = part;
         };
 
         const intervalId = setInterval(wordFlick, speed);
@@ -62,11 +64,18 @@ const Home = () => {
 
     return (
         <>
-            <div className="container-fluid d-flex align-items-center justify-content-center vh-100 text-center">
+            <div className="container-fluid d-flex align-items-center justify-content-center vh-100 text-center d-none d-md-flex">
                 <div>
                     <div className="word">Welcome to</div>
                     <h1 className="animate-character">Mallet</h1>
                     <div className="word" ref={wordRef}>{'\u200B'}</div>
+                </div>
+            </div>
+            <div className="container-fluid d-flex align-items-center justify-content-center vh-100 text-center d-md-none">
+                <div>
+                    <p className="word-mobile">Welcome to</p>
+                    <h1 className="animate-heading">Mallet</h1>
+                    <div className="word-mobile custom-height-mobile" ref={wordRefMobile}>{'\u200B'}</div>
                 </div>
             </div>
         </>

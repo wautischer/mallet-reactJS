@@ -4,7 +4,7 @@ import './components.css'
 const Reviews = () => {
     return (
         <div id="review-carousel" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-indicators d-none d-sm-flex">
+            <div className="carousel-indicators">
                 <button type="button" data-bs-target="#review-carousel" data-bs-slide-to="0"
                         className="active"></button>
                 <button type="button" data-bs-target="#review-carousel" data-bs-slide-to="1"></button>

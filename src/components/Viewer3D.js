@@ -11,7 +11,7 @@ function Viewer3D(props) {
     });
 
     return (
-        <mesh ref={myMesh} position={[0, -50, 0]}>
+        <mesh ref={myMesh} position={[0, -40, 0]}>
             <primitive object={obj} />
         </mesh>
     );

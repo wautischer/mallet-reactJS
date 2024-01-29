@@ -55,7 +55,7 @@ body {
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-    font-size: 190px;
+    font-size: 150px;
 }
 
 @keyframes textclip {
@@ -67,6 +67,15 @@ body {
 .word {
     color: white;
     font: 700 normal 2.5em 'Varela Round';
+}
+
+.word-mobile {
+    color: white;
+    font: 700 normal 2em 'Varela Round';
+}
+
+.custom-height-mobile {
+    height: 30px;
 }
 
 .timeline {
