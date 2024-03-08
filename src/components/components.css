@@ -1,6 +1,7 @@
 body {
     font-family: 'Varela Round', serif;
-    background-image: linear-gradient(180deg, #282c34, black);
+    background-image: linear-gradient(180deg, black, #282c34);
+    background-repeat: no-repeat;
 }
 
 .impressum_settings {
