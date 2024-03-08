@@ -14,17 +14,6 @@ body {
     margin: 10px;
 }
 
-@media (min-width: 576px) {
-    .custom-height {
-        height: auto;
-    }
-}
-
-@media (min-width: 768px) {
-    .custom-height {
-        height: 470px;
-    }
-}
 
 @media (max-width: 576px) {
     .loader-margin-top {
@@ -71,7 +60,7 @@ body {
 
 .word-mobile {
     color: white;
-    font: 700 normal 2em 'Varela Round';
+    font: 500 normal 1.5em 'Varela Round';
 }
 
 .custom-height-mobile {

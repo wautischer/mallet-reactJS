@@ -18,32 +18,10 @@ const Product = () => {
     return (
         <>
             <div className={"container div-padding-top"}>
-                <h1 className="text-center mb-5 animate-heading">Products and Reviews</h1>
-                <section className="py-5">
-                    <h3>Cardholder <span className="animate-text">V1.0</span> 14,99€</h3>
+                <h1 className="text-center mb-5 animate-heading">Produkte</h1>
+                <div className="py-5">
+                    <h3>Cardholder <span className="animate-text">V3.0</span> 9,99€</h3>
                     <div className="row">
-                        <div className="col-sm-6 custom-height">
-                            <p>The V1.0 edition combines a robust plastic case with a
-                                distinctive custom logo plate crafted from premium aluminium. This amalgamation of
-                                materials ensures a perfect balance between durability and aesthetics, making it an
-                                ideal choice for those who appreciate both style and functionality.
-                            </p>
-                            <p><b>Pros</b></p>
-                            <div>
-                                <ol>
-                                    <li><b>Distinguished Aesthetics:</b> The custom logo plate crafted from aluminium adds a premium and distinct look to the cardholder.</li>
-                                    <li><b>Durable Build:</b> The combination of plastic and aluminium ensures a robust and long-lasting construction.</li>
-                                    <li><b>Versatile Usage:</b> Suitable for those who prioritize both style and functionality in their everyday carry.</li>
-                                </ol>
-                            </div>
-                            <p><b>Cons</b></p>
-                            <div>
-                                <ol>
-                                    <li><b>Weight:</b> The aluminium components may contribute to a slightly heavier feel compared to an all-plastic alternative.</li>
-                                    <li><b>Material Composition:</b> While the custom logo plate is aluminium, the case is made of plastic, offering a compromise in material consistency.</li>
-                                </ol>
-                            </div>
-                        </div>
                         <div className="col-sm-6 position-relative">
                             {showLoader && (
                                 <div className="loader-container loader-margin-top">
@@ -51,36 +29,32 @@ const Product = () => {
                                 </div>
                             )}
                             {!showLoader &&
-                                <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'}/>}
+                                <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV3.obj'}/>}
                         </div>
-                    </div>
-                </section>
-                <section className="py-5">
-                    <h3>Cardholder <span className="animate-text">V2.0</span> 19,99€</h3>
-                    <div className="row">
-                        <div className="col-sm-6 custom-height">
-                            <p>In our V2.0 edition, we have retained the durable plastic case
-                                while introducing enhancements. The slider mechanism, a key feature of the Mallet
-                                Cardholder, and the custom logo plate are meticulously crafted from high-quality
-                                aluminium. This not only adds a touch of elegance but also ensures smooth functionality,
-                                setting the V2.0 apart as a refined and premium accessory.
+                        <div className="col-sm-6">
+                            <p>Der V3 Cardholder präsentiert sich als minimalistisches Meisterwerk, bestehend aus zwei eleganten Platten, die durch ein schmales 30-mm-Gummiband miteinander verbunden sind. Diese bewusste Einfachheit verleiht dem Accessoire einen modernen und zugleich zeitlosen Charme. Durch seine reduzierte Formgebung fügt sich der V3 nahtlos in den Alltag ein und verströmt dabei eine subtile Eleganz. Entdecken Sie die Fusion von Funktionalität und Stil – der V3 Cardholder, ein unverzichtbares Statement für anspruchsvollen Minimalismus.
                             </p>
                             <p><b>Pros</b></p>
                             <div>
                                 <ol>
-                                    <li><b>Enhanced Slider Mechanism:</b> The slider, a key component, is now crafted from durable aluminium, ensuring smooth and reliable usage.</li>
-                                    <li><b>Simplified Design:</b> The V2.0 maintains a sleek and minimalist appearance, focusing on functionality without compromising on style.</li>
-                                    <li><b>Aluminium Logo Plate:</b> The custom logo plate, made from aluminium, adds a touch of sophistication to the cardholder.</li>
+                                    <li><b>Schicker Minimalismus:</b> Der V3 Cardholder zeichnet sich durch ein stilvolles und minimalistisches Design aus.</li>
+                                    <li><b>Müheloser Zugang:</b> Das Design mit elastischem Band ermöglicht einen schnellen und einfachen Zugriff auf Ihre Karten.</li>
+                                    <li><b>Leichte Portabilität:</b> Schlank und leicht, eignet sich der V3 perfekt für unterwegs.</li>
                                 </ol>
                             </div>
                             <p><b>Cons</b></p>
                             <div>
                                 <ol>
-                                    <li><b>Material Consistency:</b> While the slider and logo plate are aluminium, the case remains plastic, offering a balance between weight and durability.</li>
-                                    <li><b>Similar Design:</b> The overall design may not show significant divergence from the V1.0 version, potentially limiting the appeal to those seeking a radically different look.</li>
+                                    <li><b>Abhängigkeit vom Gummiband:</b> Das Gummiband, als primärer Sicherungsmechanismus, kann sich im Laufe der Zeit abnutzen.</li>
+                                    <li><b>Stilpräferenz:</b> Personen, die traditionelle oder sperrigere Designs bevorzugen, finden den V3 möglicherweise weniger ansprechend.</li>
                                 </ol>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="py-5">
+                    <h3>Cardholder <span className="animate-text">V2.0</span> <span className="fs-5 text-danger">eingestellt</span></h3>
+                    <div className="row">
                         <div className="col-sm-6 position-relative">
                             {showLoader && (
                                 <div className="loader-container loader-margin-top">
@@ -90,17 +64,76 @@ const Product = () => {
                             {!showLoader &&
                                 <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObjV2.obj'}/>}
                         </div>
+                        <div className="col-sm-6">
+                            <p>In unserer V2.0-Edition haben wir das robuste Kunststoffgehäuse beibehalten
+                                bei der Einführung von Verbesserungen. Der Schiebemechanismus, ein Schlüsselmerkmal des Mallet
+                                Der Kartenhalter und das individuelle Logoschild sind sorgfältig aus hochwertigem Material gefertigt
+                                Aluminium. Dies verleiht nicht nur einen Hauch von Eleganz, sondern sorgt auch für reibungslose Funktionalität.
+                                macht den V2.0 zu einem raffinierten und hochwertigen Accessoire.
+                            </p>
+                            <p><b>Pros</b></p>
+                            <div>
+                                <ol>
+                                    <li><b>Verbesserter Schiebemechanismus:</b> Der Schieber, eine Schlüsselkomponente, ist jetzt aus langlebigem Aluminium gefertigt und gewährleistet eine reibungslose und zuverlässige Verwendung.</li>
+                                    <li><b>Vereinfachtes Design:</b> Der V2.0 behält ein schlankes und minimalistisches Erscheinungsbild bei und konzentriert sich auf Funktionalität, ohne Kompromisse beim Stil einzugehen.</li>
+                                    <li><b>Aluminium-Logoplatte:</b> Die individuelle Logoplatte aus Aluminium verleiht dem Kartenetui einen Hauch von Eleganz.</li>
+                                </ol>
+                            </div>
+                            <p><b>Cons</b></p>
+                            <div>
+                                <ol>
+                                    <li><b>Materialkonsistenz:</b> Während der Schieber und die Logoplatte aus Aluminium bestehen, bleibt das Gehäuse aus Kunststoff und bietet so ein ausgewogenes Verhältnis zwischen Gewicht und Haltbarkeit.</li>
+                                    <li><b>Ähnliches Design:</b> Das Gesamtdesign weicht möglicherweise nicht wesentlich von der Version V1.0 ab, was die Attraktivität möglicherweise für diejenigen einschränkt, die ein radikal anderes Erscheinungsbild suchen.</li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
-                </section>
-                <section className="py-5">
-                    <h3 className="div-padding-top">Reviews <span className="animate-text">&</span> Feedback</h3>
+                </div>
+                <div className="py-5">
+                    <h3>Cardholder <span className="animate-text">V1.0</span> <span className="fs-5 text-danger">eingestellt</span></h3>
+                    <div className="row">
+                        <div className="col-sm-6 position-relative">
+                            {showLoader && (
+                                <div className="loader-container loader-margin-top">
+                                    <div className="loader"></div>
+                                </div>
+                            )}
+                            {!showLoader &&
+                                <ObjViewer documentName={process.env.PUBLIC_URL + '/3dModel/cardholderObj.obj'}/>}
+                        </div>
+                        <div className="col-sm-6">
+                            <p>Die V1.0-Edition kombiniert ein robustes Kunststoffgehäuse mit einem
+                                unverwechselbare, individuelle Logoplatte aus hochwertigem Aluminium. Diese Verschmelzung von
+                                Materialien sorgen für eine perfekte Balance zwischen Haltbarkeit und Ästhetik und machen es zu einem
+                                ideale Wahl für diejenigen, die sowohl Stil als auch Funktionalität schätzen.
+                            </p>
+                            <p><b>Pros</b></p>
+                            <div>
+                                <ol>
+                                    <li><b>Herausragende Ästhetik:</b> Die individuelle Logoplatte aus Aluminium verleiht dem Kartenetui einen hochwertigen und unverwechselbaren Look.</li>
+                                    <li><b>Langlebige Konstruktion:</b> Die Kombination aus Kunststoff und Aluminium sorgt für eine robuste und langlebige Konstruktion.</li>
+                                    <li><b>Vielseitig einsetzbar:</b> Geeignet für alle, die beim täglichen Tragen sowohl Wert auf Stil als auch Funktionalität legen.</li>
+                                </ol>
+                            </div>
+                            <p><b>Cons</b></p>
+                            <div>
+                                <ol>
+                                    <li><b>Gewicht:</b> Die Aluminiumkomponenten können zu einem etwas schwereren Gefühl im Vergleich zu einer Vollkunststoffalternative führen.</li>
+                                    <li><b>Material Zusammensetzung:</b> Während die individuelle Logoplatte aus Aluminium besteht, besteht das Gehäuse aus Kunststoff, was einen Kompromiss in der Materialkonsistenz darstellt.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="py-5">
+                    <h3>Rezensionen <span className="animate-text">&</span> Rückmeldungen</h3>
                     <Reviews/>
                     <div className="row-cols-12 text-center pt-2">
                         <a href="mailto:feedback@mallet.at?subject=Feedback">
                             <button className="btn bg-white text-black blur-background border-white">Send Us feedback</button>
                         </a>
                     </div>
-                </section>
+                </div>
             </div>
             <Impressum/>
         </>

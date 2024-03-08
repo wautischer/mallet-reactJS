@@ -6,69 +6,77 @@ const Faq = () => {
     return (
         <>
             <div className={"container-fluid div-padding-top"}>
-                <h1 className="text-center mb-5 animate-heading">Frequently asked Questions</h1>
+                <h1 className="text-center mb-5 animate-heading">FaQ</h1>
                 <section className="py-5">
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>What is <span
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Was ist <span
                             className="animate-text">Mallet</span>?</b></h3></div>
-                        <div className="col-sm-4 text-start"><p>Mallet is a brand known for crafting personalized and
-                            excellently designed cardholders. Our commitment to quality and attention to detail ensures
-                            each cardholder is a unique blend of functionality and style. We take pride in providing
-                            distinctive accessories that make a statement about individuality and sophistication.
-                            Discover the artistry of Mallet and experience cardholders that go beyond the ordinary.</p>
+                        <div className="col-sm-4 text-start"><p>Mallet ist eine Marke, die für die Herstellung
+                            personalisierter und exzellent gestalteter Cardholder bekannt ist. Unser Engagement für
+                            Qualität und Liebe zum Detail gewährleistet, dass jeder Cardholder eine einzigartige
+                            Kombination aus Funktionalität und Stil ist. Wir sind stolz darauf, einzigartige Accessoires
+                            anzubieten, die eine Aussage über Individualität und Raffinesse treffen. Entdecken Sie die
+                            Kunstfertigkeit von Mallet und erleben Sie Cardholder, die über das Gewöhnliche
+                            hinausgehen.</p>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>How does the <span
-                            className="animate-text">Mallet</span> Cardholder work?</b>
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Wie funktioniert der <span
+                            className="animate-text">Mallet</span> Cardholder?</b>
                         </h3></div>
-                        <div className="col-sm-4 text-start"><p>The Mallet Cardholder features a sliding mechanism on
-                            the side, providing convenient access to seven card slots. This innovative design allows for
-                            easy storage and retrieval of your essential cards, ensuring practicality and efficiency.
-                            The sleek and functional construction of the cardholder reflects Mallet's commitment to
-                            blending craftsmanship with modern utility, making it an ideal accessory for those who
-                            appreciate both style and functionality.</p></div>
+                        <div className="col-sm-4 text-start"><p>Der Mallet-Cardholder verfügt über einen seitlichen
+                            Schiebemechanismus, der einen bequemen Zugang zu sieben Kartenfächern bietet. Dieses
+                            innovative Design ermöglicht eine einfache Aufbewahrung und Entnahme Ihrer wichtigsten
+                            Karten, was Praktikabilität und Effizienz gewährleistet. Die schlanke und funktionale
+                            Konstruktion des Cardholder spiegelt das Engagement von Mallet wider, Handwerkskunst mit
+                            modernem Nutzen zu vereinen, und macht ihn zu einem idealen Accessoire für diejenigen, die
+                            sowohl Stil als auch Funktionalität schätzen.</p></div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Where can I buy the <span
-                            className="animate-text">Mallet</span> Cardholder?</b></h3></div>
-                        <div className="col-sm-4 text-start"><p>Presently, our Mallet Cardholders are exclusively
-                            available for direct pickup at our manufacturing facility. However, to enhance accessibility
-                            and cater to a wider audience, we are diligently working on making our Cardholders available
-                            for online purchase. This upcoming option will offer customers the convenience of acquiring
-                            our products from the comfort of their homes. Keep an eye out for our online release, as we
-                            are committed to providing a streamlined and user-friendly experience for our valued
-                            customers.</p></div>
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Wo kann ich den <span
+                            className="animate-text">Mallet</span> Cardholder kaufen?</b></h3></div>
+                        <div className="col-sm-4 text-start"><p>Aktuell sind unsere Mallet-Cardholder ausschließlich
+                            für die direkte Abholung in unserer Produktionsstätte erhältlich. Um die Zugänglichkeit zu
+                            verbessern und eine breitere Zielgruppe anzusprechen, arbeiten wir jedoch intensiv daran,
+                            unsere Cardholder für den Online-Kauf verfügbar zu machen. Diese baldige Option wird es
+                            Kunden ermöglichen, unsere Produkte bequem von zu Hause aus zu erwerben. Behalten Sie unsere
+                            Online-Veröffentlichung im Auge, denn wir sind bestrebt, unseren geschätzten Kunden eine
+                            effiziente und benutzerfreundliche Erfahrung zu bieten.</p></div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>How is the <span
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Wie wird der <span
                             className="animate-text">Mallet</span> Cardholder
-                            produced?</b></h3></div>
-                        <div className="col-sm-4 text-start"><p>Our team synergizes to bring the Mallet Cardholder to
-                            life, employing innovative techniques such as laser cutting. We take pride in using recycled
-                            materials, aligning with our commitment to sustainability. This collaborative effort ensures
-                            that each cardholder is a unique blend of craftsmanship and environmental consciousness.</p>
+                            hergestellt?</b></h3></div>
+                        <div className="col-sm-4 text-start"><p>Unser Team arbeitet synergistisch zusammen, um den
+                            Mallet-Cardholder zum Leben zu erwecken, unter Verwendung innovativer Techniken wie
+                            Laserbeschnitt. Wir sind stolz darauf, recycelte Materialien zu verwenden, was unserem
+                            Bekenntnis zur Nachhaltigkeit entspricht. Diese gemeinsame Anstrengung gewährleistet, dass
+                            jeder Cardholder eine einzigartige Kombination aus Handwerkskunst und Umweltbewusstsein
+                            ist.</p>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Why should one buy the <span
-                            className="animate-text">Mallet</span> Cardholder?</b></h3></div>
-                        <div className="col-sm-4 text-start"><p>The Mallet Cardholder stands out for its meticulous
-                            craftsmanship, functional design with a side slider for seven cards, and durable, premium
-                            materials. Its sleek and minimalistic style, combined with future online availability, makes
-                            it a smart and stylish choice for those seeking a compact and reliable accessory.</p></div>
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Wo wird der <span
+                            className="animate-text">Mallet</span> Cardholder
+                            hergestellt?</b></h3></div>
+                        <div className="col-sm-4 text-start"><p>Der Mallet-Cardholder wird durch unsere engagierten
+                            Bemühungen im Makerspace Kärnten gefertigt, wo wir hochmoderne Einrichtungen nutzen und mit
+                            qualifizierten Fachleuten zusammenarbeiten. In dieser kreativen Umgebung arbeiten wir
+                            praktisch und setzen innovative Techniken sowie hochwertige Materialien ein, um den
+                            Mallet-Cardholder zum Leben zu erwecken. Unsere direkte Beteiligung am Produktionsprozess
+                            gewährleistet akribische Aufmerksamkeit für Details und die Bereitstellung eines fein
+                            gearbeiteten Cardholder, der unseren Qualitätsstandards entspricht.</p>
+                        </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Where is the <span
-                            className="animate-text">Mallet</span> Cardholder
-                            manufactured?</b></h3></div>
-                        <div className="col-sm-4 text-start"><p>The Mallet Cardholder is crafted through our dedicated
-                            efforts at the Makerspace Carinthia, where we utilize state-of-the-art facilities and
-                            collaborate with skilled professionals. Working hands-on in this creative environment, we
-                            employ innovative techniques and quality materials to bring the Mallet Cardholder to life.
-                            Our direct involvement in the production process ensures meticulous attention to detail and
-                            the delivery of a finely crafted cardholder that meets our standards of excellence.</p>
-                        </div>
+                        <div className="col-sm-6 text-sm-end text-start"><h3><b>Warum sollte ich den <span
+                            className="animate-text">Mallet</span> Cardholder kaufen?</b></h3></div>
+                        <div className="col-sm-4 text-start"><p>Der Mallet-Cardholder zeichnet sich durch seine
+                            akribische Handwerkskunst, das funktionale Design mit einem seitlichen Schieberegler für
+                            sieben Karten und hochwertige, langlebige Materialien aus. Sein schlanker und
+                            minimalistischer Stil, kombiniert mit der zukünftigen Online-Verfügbarkeit, macht ihn zu
+                            einer klugen und stilvollen Wahl für diejenigen, die nach einem kompakten und zuverlässigen
+                            Accessoire suchen.</p></div>
                     </div>
                 </section>
             </div>

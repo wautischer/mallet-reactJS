@@ -9,7 +9,7 @@ const Impressum = () => {
             <div className={"row"}>
                 <div className={"col-sm-4 d-none d-md-block"}>
                     <label>Mallet</label>
-                    <button className="btn btn-dark text-white disabled bg-transparent border-0">Carinthia, Austria</button>
+                    <button className="btn btn-dark text-white disabled bg-transparent border-0">Kärnten, Österreich</button>
                 </div>
                 <div className={"col-sm-4"}>
                     <button
@@ -22,7 +22,7 @@ const Impressum = () => {
                     </button>
                 </div>
                 <div className={"col-sm-4 d-none d-md-block"}>
-                    <label>Contact</label><a href="mailto:office@mallet.at">
+                    <label>Kontakt</label><a href="mailto:office@mallet.at">
                     <button className="btn btn-dark text-white bg-transparent disabled border-0">office@mallet.at</button>
                 </a>
                 </div>
@@ -57,7 +57,7 @@ const Impressum = () => {
                                 and monitored by the association Junior Achievement Austria. Therefore, the association
                                 serves as the point of contact for legal inquiries.
                             </p>
-                            <b>© 2024 Mallet. All rights reserved.</b>
+                            <b>© 2024 Mallet</b>
                         </div>
                     </div>
                 </div>
