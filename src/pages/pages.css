@@ -15,11 +15,9 @@ body {
     margin: 10px;
 }
 
-
-@media (max-width: 576px) {
-    .loader-margin-top {
-        margin-top: 20px;
-    }
+.blur-background {
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
 }
 
 .test-border {
@@ -105,11 +103,12 @@ body {
 }
 
 .loader-container {
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 50%;
+    left: 85%;
     transform: translate(-50%, -50%);
 }
+
 
 @keyframes l6 {
     0% {

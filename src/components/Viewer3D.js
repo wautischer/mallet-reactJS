@@ -11,7 +11,7 @@ function Viewer3D(props) {
     });
 
     return (
-        <mesh ref={myMesh} position={[0, -40, 0]}>
+        <mesh ref={myMesh} position={[0, -5, 0]}>
             <primitive object={obj} />
         </mesh>
     );
@@ -23,8 +23,8 @@ export default function ObjViewer(props) {
             <div className="row justify-content-center">
                 <div className="col-md-12">
                     <Canvas
-                        style={{ width: "100%", height: "400px" }}
-                        camera={{ position: [0, 0, 180], fov: 50 }}
+                        style={{ width: "100%", height: "200px" }}
+                        camera={{ position: [0, 0, 120], fov: 50 }}
                     >
                         <Viewer3D documentName={props.documentName} />
                         <ambientLight intensity={.35} />
