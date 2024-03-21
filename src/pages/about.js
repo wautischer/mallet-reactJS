@@ -118,7 +118,7 @@ const About = () => {
                         <div className="col-sm-4"></div>
                         <div className="col-sm-4 pb-5">
                             <div className="card bg-transparent blur-background d-flex flex-column border-0">
-                                <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'}
+                                <img src={process.env.PUBLIC_URL + '/images/team/Foto_Simon_Hurlimann.jpg'}
                                      alt="Simon" className="custom-img-styles"/>
                                 <div className="container text-white">
                                     <h2><span className="animate-text">S</span>imon</h2>

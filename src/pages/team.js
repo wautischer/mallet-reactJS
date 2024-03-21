@@ -10,7 +10,7 @@ const Team = () => {
                 <div className="row pt-5">
                     <div className="col-sm-4 mx-auto d-flex align-items-center">
                         <div className="card bg-transparent blur-background d-flex flex-column border-0">
-                            <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Simon"
+                            <img src={process.env.PUBLIC_URL + '/images/team/Foto_Simon_Hurlimann.jpg'} alt="Simon"
                                  className="custom-img-styles"/>
                             <div className="container text-white">
                                 <h2><span className="animate-text">S</span>imon</h2>
@@ -34,7 +34,7 @@ const Team = () => {
                     </div>
                     <div className="col-sm-4 py-4">
                         <div className="card bg-transparent blur-background d-flex flex-column border-0">
-                            <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'}
+                            <img src={process.env.PUBLIC_URL + '/images/team/Foto_Laurin_Wautischer.jpg'}
                                  alt="Laurin"
                                  className="custom-img-styles"/>
                             <div className="container text-white">
@@ -65,7 +65,7 @@ const Team = () => {
                             <div className="container text-white">
                                 <h2><span className="animate-text">T</span>homas</h2>
                                 <h2><span className="animate-text">H</span>undsbichler</h2>
-                                <p className="title">Finanzen & Prototyp</p>
+                                <p className="title">Finanzen</p>
                                 <div className="pb-2">
                                     Thomas verwaltet den finanziellen Puls von Mallet. Als Finanzexperte sorgt er für
                                     die finanzielle Gesundheit des Unternehmens, gewährleistet Stabilität und ermöglicht
