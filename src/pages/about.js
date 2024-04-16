@@ -123,13 +123,8 @@ const About = () => {
                                 <div className="container text-white">
                                     <h2><span className="animate-text">S</span>imon</h2>
                                     <h2><span className="animate-text">H</span>ürlimann</h2>
-                                    <p className="title">CEO & Produkt Designer</p>
-                                    <div className="pb-2"> Als Chief Executive Officer ist Simon der visionäre Anführer
-                                        hinter Mallet. Mit einem tiefen Verständnis für die Branche lenkt er die
-                                        strategische Ausrichtung des Unternehmens und stellt sicher, dass Mallet
-                                        weiterhin herausragende Leistungen erbringt. Darüber hinaus ist er unser
-                                        Produktdesigner.
-                                    </div>
+                                    <p className="title">CEO</p>
+                                    <div className="pb-2">Zusätzlich zu seinen Pflichten als Chief Executive Officer trägt er auch die Verantwortung für die Gestaltung der Produkte.</div>
                                     <p></p>
                                     <p className="text-center">
                                         <a href="mailto:huerlimann@mallet.at?subject=Contact">
