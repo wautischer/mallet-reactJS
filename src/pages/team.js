@@ -50,7 +50,7 @@ const Team = () => {
                     </div>
                     <div className="col-sm-4 py-4">
                         <div className="card bg-transparent blur-background d-flex flex-column border-0">
-                            <img src={process.env.PUBLIC_URL + '/images/logo/android-chrome-512x512.png'} alt="Thomas"
+                            <img src={process.env.PUBLIC_URL + '/images/team/Foto_Thomas_Hundsbichler.jpg'} alt="Thomas"
                                  className="custom-img-styles"/>
                             <div className="container text-white">
                                 <h2><span className="animate-text">T</span>homas</h2>
