@@ -62,6 +62,11 @@ const Navbar = () => {
                                 FaQ
                             </NavLink>
                         </li>
+                        <li className="nav-item" onClick={closeMenu}>
+                            <NavLink className="nav-link" to="/partnership" activeclassname="active">
+                                Partnership
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
 

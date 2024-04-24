@@ -6,6 +6,7 @@ import About from './pages/about';
 import Product from './pages/product';
 import Faq from "./pages/faq";
 import Team from "./pages/team";
+import Partnership from "./pages/partnership"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/product" element={<Product />} />
                     <Route path="/faq" element={<Faq />}/>
                     <Route path="/team" element={<Team/>}/>
+                    <Route path="/partnership" element={<Partnership/>}/>
                 </Routes>
             </HashRouter>
         </div>
